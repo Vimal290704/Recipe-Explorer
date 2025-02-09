@@ -17,11 +17,7 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 app.use(express.json());
-
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../frontend/public")));
-}
-
+app.use(express.static(path.join(__dirname, "frontend")));
 class FatSecretAPI {
   constructor() {
     this.consumerKey = process.env.FATSECRET_CONSUMER_KEY;

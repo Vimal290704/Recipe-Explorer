@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 
 const corsOptions = {
   origin:
-    process.env.NODE_ENV === "production"
+    process.env.NODE_ENV === "development"
       ? process.env.ALLOWED_ORIGINS.split(",")
       : "http://localhost:3000",
   optionsSuccessStatus: 200,

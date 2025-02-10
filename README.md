@@ -46,7 +46,7 @@ Due to the deployment issue, we recommend running the application locally. Follo
 ### Installation and Setup
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/enhanced-recipe-explorer.git
+   git clone https://github.com/Vimal290704/Recipe-Explorer.git
    ```
 2. **Navigate to the project folder:**
    ```sh

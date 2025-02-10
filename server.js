@@ -1,17 +1,13 @@
-require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const crypto = require("crypto");
 const path = require("path");
 const app = express();
 
-const port = process.env.PORT || 3000;
+const port = 3000;
 
 const corsOptions = {
-  origin:
-    process.env.NODE_ENV === "development"
-      ? process.env.ALLOWED_ORIGINS.split(",")
-      : "http://localhost:3000",
+  origin: "http://localhost:3000",
   optionsSuccessStatus: 200,
 };
 
@@ -20,8 +16,8 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "frontend")));
 class FatSecretAPI {
   constructor() {
-    this.consumerKey = process.env.FATSECRET_CONSUMER_KEY;
-    this.consumerSecret = process.env.FATSECRET_CONSUMER_SECRET;
+   this.consumerKey = "63117102c5df4cfdbd61040abbb1b8dd";
+    this.consumerSecret = "05410be848e447448678bb45796bc9c0";
     this.baseUrl = "https://platform.fatsecret.com/rest/server.api";
   }
   generateOAuthParams() {

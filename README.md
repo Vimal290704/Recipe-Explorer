@@ -43,7 +43,8 @@ The application is currently facing a critical deployment issue with the backend
 ## Running the Project Locally
 Due to the deployment issue, we recommend running the application locally. Follow these steps:
 
-### Installation and Setup
+### Installation and Setup 
+I have hardcoded the counsumer key and all..... 
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/Vimal290704/Recipe-Explorer.git

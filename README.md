@@ -48,24 +48,16 @@ Due to the deployment issue, we recommend running the application locally. Follo
    ```sh
    git clone https://github.com/Vimal290704/Recipe-Explorer.git
    ```
-2. **Navigate to the project folder:**
+2. **Install the dependencies**
    ```sh
-   cd enhanced-recipe-explorer
+   npm install cors path express 
    ```
-3. **Install dependencies:**
+3. **Run the server**
    ```sh
-   npm install
+   node server.js
    ```
-4. **Create a `.env` file** in the root directory with the following variables:
-   ```sh
-   PORT=3000
-   NODE_ENV=development
-   ALLOWED_ORIGINS=http://localhost:3000
-   ```
-5. **Start the development server:**
-   ```sh
-   npm start
-   ```
+4. **Now run the frontend:**
+    Run the the index.html with Live server
 
 ### Development Requirements
 - **Node.js** v14 or higher.
@@ -74,11 +66,6 @@ Due to the deployment issue, we recommend running the application locally. Follo
 
 ## Deployment Troubleshooting Guide
 To resolve the backend deployment issue:
-
-### Platform-Specific Setup:
-- Follow the hosting platform's specific guidelines for Node.js applications.
-- Check if the platform requires a specific start script in `package.json`.
-- Verify if a `Procfile` is needed (for platforms like Heroku).
 
 ### Dependencies:
 - Ensure all dependencies are listed in `package.json`.

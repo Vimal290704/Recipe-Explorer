@@ -50,7 +50,7 @@ Due to the deployment issue, we recommend running the application locally. Follo
    ```
 2. **Install the dependencies**
    ```sh
-   npm install cors path express 
+   npm install cors path express crypto
    ```
 3. **Run the server**
    ```sh

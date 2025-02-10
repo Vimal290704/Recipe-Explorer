@@ -21,7 +21,7 @@ Enhanced Recipe Explorer is a feature-rich recipe search application that helps 
 - **Personalization**: Remembers user preferences and settings.
 
 ## Technical Stack
-- **Frontend**: HTML5, CSS3, Vanilla JavaScript (CORS etc).
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript.
 - **Backend**: Node.js, Express.js.
 - **API Integration**: FatSecret Platform API.
 - **Authentication**: OAuth 1.0.
